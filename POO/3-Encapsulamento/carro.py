@@ -1,8 +1,5 @@
 class Carro:
     def __init__(self, cor, velocidade, marca, modelo, kms=0):
-        self.__inicializar_propriedades(cor, velocidade, marca, modelo, kms)
-
-    def __inicializar_propriedades(self, cor, velocidade, marca, modelo, kms):
         self.cor = cor
         self.velocidade = velocidade
         self.marca = marca
@@ -87,7 +84,7 @@ carro = Carro("branco", 50, "Ford", "Focus", -50)
 carro.kms = "MUITO BOM"
 carro.cor = "LEGAL"
 print(carro)
-print(carro.calcular_velocidade_legal())
+print(carro.calcular_velocidade_legal)
 
     
 
